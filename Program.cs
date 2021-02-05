@@ -10,7 +10,6 @@ namespace For_Loops
     {
         static void Main(string[] args)
         {
-            // This is a test
             Console.WriteLine("Type a message, and I'll display it five times.");
             Console.WriteLine("Message: ");
             String message = Console.ReadLine();
