@@ -23,14 +23,14 @@ namespace For_Loops
             Console.WriteLine("Task 1 - Ten Times");
             Console.WriteLine("------------------");
             Console.WriteLine();
-            //Task1TenTimes();
+            Task1TenTimes();
 
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine("Task 2 - Counting Machine");
             Console.WriteLine("-------------------------");
             Console.WriteLine();
-            //Task2CountingMachine();
+            Task2CountingMachine();
 
             Console.WriteLine();
             Console.WriteLine();
@@ -39,7 +39,7 @@ namespace For_Loops
             Console.WriteLine();
             Task3CountingMachineRevisited();
 
-            Console.ReadLine();
+            Console.ReadLine(); // Keeps program from quitting
         }
         
         // Programming Task 1 - Ten Times
@@ -59,7 +59,7 @@ namespace For_Loops
             number = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine();
 
-            for(int i = 0; i <= number; i++)
+            for(int i = 0; i <= number; i += 1)
             {
                 Console.Write(i + " ");
             }
